@@ -1,15 +1,9 @@
 <html lang="en">
-<head>
-  <%-include('/Users/steven/Desktop/BaseWebApp/project/html//helpers/head.ejs'); %>
-</head>
 
 <body>
   <!-- the classes 'page-header' and 'btn btn-dark' create bootstrap components.  -->
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
-    <%-include('/Users/steven/Desktop/BaseWebApp/project/html//helpers/navbar.ejs'); %>
-
-  
     <h1>My Daddy loves Digimon</h1>
   </div>
 
@@ -18,6 +12,17 @@
   <button onClick="showPicture()" class="btn btn-dark">Click me</button>
 
   <div id="image"></div>
+
+  <input class="search" type="text" placeholder="Enter city name">
+  <button type="button" onClick="searchweather()">Search</button>
+
+  <div class="error-message"></div>
+
+  <div class="city"></div>
+
+  <div class="temp"><div>
+
+  <div>
   
 </body>
 
